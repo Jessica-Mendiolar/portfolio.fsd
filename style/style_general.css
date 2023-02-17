@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background-color: rgba(250, 249, 248, 0.904);
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: rgba(199, 50, 50, 0.925);
+    font-size: 150%;
+    margin: 0.5%;
+}
+
+
+nav ul {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+nav ul li a {
+    display: block;
+    border-radius: 5px;
+    padding: 10px 0 10px 0px;
+    color: rgb(235, 90, 90);
+    font-size: 1.2rem;
+    width: 100px;
+    height: auto;
+
+}
+
+nav ul li a:hover {
+    background-color: rgba(199, 104, 104, 0.925);
+    color: #f1edea;
+    transition: 0.5s linear;
+}
+
+main {
+    background:
+        linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));
+}
+
+.container {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.04) inset;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100vw;
+    height:auto;
+    font-size: 1.3em;
+    flex-wrap: wrap;
+}
+
+footer {
+    width: 100vw;
+    height: 12vh;
+    background-color: rgba(212, 124, 124, 0.781);
+    text-align: center;
+    font-size: 0.4rem;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 1%;
+}
+
+.fa-brands {
+    font-size: 23px;
+    padding-left: 3px;
+    color: rgb(235, 90, 90);
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .container {
+        height: auto;
+    }
+    nav ul {
+        display: block;
+    }
+}

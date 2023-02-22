@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100vw;
+    width: 100%;
     height: auto;
 
 
@@ -16,7 +16,7 @@
 }
 
 .image {
-    width: 45%;
+    width: 42%;
     height: 80vh;
     align-items: flex-end;
     text-align: center;
@@ -78,7 +78,3 @@ b {
     }
 }
 
-@media screen and (min-width:1024px) {
-    
-   
-}
